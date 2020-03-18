@@ -19,7 +19,7 @@ beforeEach(function () {
 describe('Game', () => {
   it('sets the initial time when the game was started in componentDidMount', () => {
 
-    const gWrapper = mount(<Game />);
+    const gWrapper = mount( <Game />);
     gWrapper.update()
     expect(gWrapper.state().time).to.not.equal(undefined);
 
